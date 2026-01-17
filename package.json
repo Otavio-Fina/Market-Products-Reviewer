@@ -1,0 +1,9 @@
+{
+  "name": "market-products-reviewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "client": "cd client && npm run dev"
+  }
+}
