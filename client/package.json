@@ -6,9 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:android": "npm run build && npx cap sync android",
+    "run:android": "npx cap run android",
+    "open:android": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^5.7.8",
+    "@capacitor/app": "^5.0.8",
+    "@capacitor/cli": "^5.7.8",
+    "@capacitor/core": "^5.7.8",
+    "@capacitor/haptics": "^5.0.8",
+    "@capacitor/keyboard": "^5.0.9",
+    "@capacitor/status-bar": "^5.0.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.0"
   },
@@ -18,7 +28,6 @@
     "@vitejs/plugin-react": "^4.3.2",
     "sass": "^1.80.5",
     "typescript": "^5.6.3",
-    "vite": "^5.4.10",
-    "vite-plugin-pwa": "^0.20.5"
+    "vite": "^5.4.10"
   }
 }

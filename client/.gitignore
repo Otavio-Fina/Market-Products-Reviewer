@@ -21,3 +21,20 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+
+
+# capacitor - android
+/client/android/
+/client/ios/
+# capacitor builds
+*.apk
+*.aab
+# capacitor sync files
+/client/android/app/build/
+/client/android/.gradle/
+/client/android/local.properties
+
+
+# coisa do tavio
+set-java17.ps1
