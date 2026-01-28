@@ -72,5 +72,30 @@ ANVISA API
 - On-demand live fetch for low queried data
 
 ANVISA API WAYPOINTS
-- POST /consulta/alimento/produtos (Query food products)
-- GET /empresa/{cnpj} (Query companies)
+- GET /certificado/status
+- GET /certificado/linhasCertificacao
+- GET /certificado/formasFarmaceuticas
+- GET /certificado/classesCertificacao
+- GET /empresa/{cnpj}
+- GET /empresa/tipoEmpresa
+- GET /empresa/tipoAtividade
+- GET /empresa/tipoAtividadeAgrupada
+- GET /empresa/classes
+- GET /empresa/areasProduto
+- GET /funcionamento/empresaInternacional/funcionamentoTipo/funcionamentoInternacional
+- GET /dossie/tiposProduto
+- GET /dossie/acoesFiscalizacao
+- GET /dossie/classesRisco
+- POST /consulta/alimento/produtos
+- GET /grupoPopulacional/
+- GET /categoriaProduto/alimentos
+- GET /alergenico/
+- POST /consulta/saude
+
+ANVISA LINKS
+- https://api.anvisa.gov.br/consultas-externas/certificados-doc
+- https://api.anvisa.gov.br/consultas-externas/funcionamento-empresa-nacional
+- https://api.anvisa.gov.br/consultas-externas/funcionamento-empresa-internacional
+- https://api.anvisa.gov.br/consultas-externas/dossie-doc
+- https://api.anvisa.gov.br/consultas-externas/consulta-alimentos
+- https://api.anvisa.gov.br/consultas-externas/consulta-produtos-saude
