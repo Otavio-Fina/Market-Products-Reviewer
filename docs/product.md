@@ -58,3 +58,19 @@ Plataforma de comparação e review de produtos de supermercado com IA para reco
   - Preferências alimentares
   - Restrições (alergias, vegan, etc.)
   - Relação custo-benefício
+
+### ANVISA
+Database: MySQL
+Cache/fast-store: Redis (throttling, Anvisa cache, session)
+Storage: AWS S3
+Workers: AWS Lambda, Google Cloud Functions
+Services: Node.js/TypeScript (Express)
+
+ANVISA API
+- Populate with bulk load on local database
+- Incremental and periodic sync (jobs, lambdas, webhooks)
+- On-demand live fetch for low queried data
+
+ANVISA API WAYPOINTS
+- POST /consulta/alimento/produtos (Query food products)
+- GET /empresa/{cnpj} (Query companies)

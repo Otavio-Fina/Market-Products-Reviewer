@@ -48,3 +48,5 @@ next-env.d.ts
 /client/android/app/build/
 /client/android/.gradle/
 /client/android/local.properties
+# sql
+market.sql
